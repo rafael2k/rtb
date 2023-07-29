@@ -58,7 +58,7 @@ set(rtb_SOURCE_FILES
 )
 
 set(rtb_LINK_LIBRARIES
-     ${SDL_LIBRARY}
+     ${SDL_LIBRARY} -lm
 )
 
 include_directories(
